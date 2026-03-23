@@ -46,7 +46,7 @@ The script performs the following steps:
 4. **Peptide Sequence Generation**: Concatenates the 5 amino acids per sample row into a 5-character peptide sequence.
  
 5. **LLM Classification**:
-   * Dynamically downloads the model definition (`network.py`), weights (`model.pt`), config (`config.yaml`), and tokenizer mapping (`tokenizer_mapping.json`) from the Hugging Face repository [`shubhamc-iiitd/pdac_pred_llm`](https://huggingface.co/shubhamc-iiitd/pdac_pred_llm).
+   * Dynamically downloads the model definition (`network.py`), weights (`model.pt`), config (`config.yaml`), and tokenizer mapping (`tokenizer_mapping.json`) from the Hugging Face repository [`raghavagps-group/pdac_pred_llm`](https://huggingface.co/raghavagps-group/pdac_pred_llm).
    * Tokenizes each peptide sequence using the downloaded mapping.
    * Runs inference on CPU or CUDA (auto-detected).
    * Classifies each sample as `PDAC` (probability > 0.5) or `non-PDAC`.
