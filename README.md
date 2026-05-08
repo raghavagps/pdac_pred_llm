@@ -1,7 +1,8 @@
 # Classification of Pancreatic Ductal Carcinoma Patients using a Large Language Model
  
 ### This Python script provides a command-line interface (CLI) for predicting PDAC patients based on the expression of a 5-gene biomarker using a fine-tuned LLM model hosted on Hugging Face.
- 
+## Zenodo 
+https://doi.org/10.5281/zenodo.19878400
 ## Prerequisites
 * Python (>=3.9)
 * scikit-learn == 1.6.1
